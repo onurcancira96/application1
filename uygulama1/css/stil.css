@@ -1,0 +1,71 @@
+body{
+    color:#eee;
+    background-color:#222;
+}
+header{
+    position: relative;
+    height: 35vh;
+    border-bottom:7px solid #eee;
+}
+main
+{
+    height: 65vh;
+    color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top:52%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.left{
+width:52rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.right{
+    width:52rem;
+    font-size: 2rem;
+}
+.between{
+    font-size: 1.4rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+.againbox{
+    position: absolute;
+    top:2rem;
+    left: 2rem;
+}
+
+.form-control{
+    width: 50%;
+}
+.number{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+ background-color: white;
+ color: #222;
+ width: 13%;
+ height: 50%;
+ text-align: center;
+ position: absolute;
+ bottom: 0;
+ left:50%;
+ transform: translate(-50%,60%);
+}
+.guess{
+    text-align: center;
+}
